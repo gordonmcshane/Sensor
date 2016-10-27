@@ -43,6 +43,11 @@ XnSensorIO::XnUsbId XnSensorIO::ms_supportedProducts[] =
 	{ 0x1D27, 0x0600 },
 	{ 0x1D27, 0x0601 },
 	{ 0x1D27, 0x0609 },
+        { 0x2BC5, 0x0401 },
+        { 0x2BC5, 0x0402 },
+        { 0x2BC5, 0x0403 },
+        { 0x2BC5, 0x0404 },
+        { 0x2BC5, 0x0405 }
 };
 
 XnUInt32 XnSensorIO::ms_supportedProductsCount = sizeof(XnSensorIO::ms_supportedProducts) / sizeof(XnSensorIO::ms_supportedProducts[0]);
